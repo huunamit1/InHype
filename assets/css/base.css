@@ -1,0 +1,142 @@
+:root {
+    --height-navbar: 48px;
+    --height-heading: 120px;
+    --height-btn: 44px;
+    --font-size: 1.6em;
+    --height-50px: 50px;
+    --margin-top: 60px;
+    --black-color: #000;
+    --white-color: #fff;
+    --border-color: #d9d9d9;
+    --border-input-color: #fb7f88;
+    --border-error-messenger-color: #dc3232;
+    --text-color-primary: #0f0e0e;
+    --text-color-first: #333333;
+    --text-color-second: #6e6e6e;
+    --text-color-third: #a1a1a1;
+    --text-color-fourth: #d6dbdb;
+    --text-color-link: #1b1a1a;
+    --text-color-header-form: #505260;
+    --text-color-messenger-validator: #ff0000;
+    --text-color-icon-form: #d5dada;
+    --text-color-icon-password: #343642;
+    --text-hover-color: #326891;
+    --background-color-heading: #0b1d32;
+    --background-color-header: #f5f5f5;
+    --background-color-hot: #ea3465;
+    --background-color-hover-btn: #48494b;
+    --background-color-facebook: #4267b2;
+    --background-color-google: #dc4e41;
+    --background-color-twitter: #4ab3f4;
+    --background-color-youtube: #f61004;
+    --background-color-instagram: #336699;
+    --background-color-quick-take: #13181c;
+    --background-color-btn: #1f2028;
+    --background-color-icon-img-first: #4545e8;
+    --background-color-icon-img-second: #6641db;
+    --background-tag-business-color: #994db1;
+    --background-tag-markets-color: #ed7e4f;
+    --background-tag-politics-color: #5b4cce;
+    --background-tag-video-color: #0d30c3;
+    --background-tag-world-color: #160600;
+    --box-shadow-rgba: rgba(0, 0, 0, 0.15);
+    --box-shadow-rgba-50per: rgb(0 0 0 / 50%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+    transition: 0.3s;
+}
+
+.half {
+    width: 50% !important;
+}
+
+.half.gap {
+    width: calc(50% - 5px) !important;
+}
+
+.gap+.gap {
+    margin-left: 7px;
+}
+
+.no-hover--color:hover {
+    color: var(--text-color) !important;
+}
+
+.animation-show {
+    animation: animationShow linear 0.3s;
+}
+
+.background-color-white {
+    background-color: var(--white-color) !important;
+}
+
+.color-white {
+    color: var(--white-color) !important;
+}
+
+@keyframes animationShow {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.slick-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: var(--height-50px);
+    height: var(--height-50px);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    z-index: 2;
+    color: var(--white-color);
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.slick-arrow:hover {
+    background-color: #48494b;
+}
+
+.slick-next {
+    left: calc(var(--height-50px) + 25px);
+}
+
+.border-line {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.box-100px {
+    height: 100px;
+    width: 100%;
+}
