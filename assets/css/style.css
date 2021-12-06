@@ -698,6 +698,7 @@
     font-size: 1.6em;
 }
 
+.posts__social--facebook,
 .form-other .social--facebook {
     background-color: var(--background-color-facebook);
 }
@@ -706,6 +707,7 @@
     background-color: var(--background-color-google);
 }
 
+.posts__social--twitter,
 .form-other .social--twitter {
     background-color: var(--background-color-twitter);
 }
@@ -1035,7 +1037,7 @@
 
 .form-connect {
     height: 317px;
-    background-image: url('/assets/img/backgroundConnect.jpg');
+    background-image: url('https://github.com/huunamit1/InHype/blob/main/assets/img/backgroundConnect.jpg?raw=true');
     background-size: cover;
     background-position: center;
     display: flex;
