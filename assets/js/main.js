@@ -436,7 +436,7 @@ $(document).ready(function() {
 
 function setImageBackground(selector, arrayImage) {
     document.querySelectorAll(selector).forEach((element, index) =>
-        element.style.backgroundImage = `url('/assets/img/${arrayImage[index]}')`);
+        element.style.backgroundImage = `url('assets/img/${arrayImage[index]}')`);
 }
 
 function setBackgroundImage() {
